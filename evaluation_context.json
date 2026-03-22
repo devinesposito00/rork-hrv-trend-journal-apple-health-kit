@@ -1,39 +1,39 @@
 {
   "project_structure": [
-    "README.md",
-    "babel.config.js",
-    "evaluation_context.json",
-    "metro.config.js",
-    "eslint.config.js",
-    "eas.json",
-    "tsconfig.json",
-    "app.json",
     "package-lock.json",
+    "metro.config.js",
+    "eas.json",
+    "eslint.config.js",
     ".gitignore",
+    "app.json",
+    "babel.config.js",
+    "README.md",
     "package.json",
-    "contexts/AppContext.tsx",
-    "app/_layout.tsx",
-    "app/+native-intent.tsx",
-    "app/day-detail.tsx",
-    "app/onboarding.tsx",
-    "app/+not-found.tsx",
-    "app/(tabs)/log.tsx",
-    "app/(tabs)/_layout.tsx",
-    "app/(tabs)/index.tsx",
-    "app/(tabs)/settings.tsx",
+    "tsconfig.json",
+    "evaluation_context.json",
+    "components/InsightCard.tsx",
     "components/RangeSelector.tsx",
     "components/TagChip.tsx",
-    "components/InsightCard.tsx",
     "components/HRVChart.tsx",
-    "types/index.ts",
-    "utils/mockData.ts",
+    "contexts/AppContext.tsx",
     "utils/csvExport.ts",
-    "assets/images/icon.png",
-    "assets/images/adaptive-icon.png",
-    "assets/images/splash-icon.png",
-    "assets/images/favicon.png",
+    "utils/mockData.ts",
+    "app/+not-found.tsx",
+    "app/_layout.tsx",
+    "app/day-detail.tsx",
+    "app/+native-intent.tsx",
+    "app/onboarding.tsx",
+    "app/(tabs)/settings.tsx",
+    "app/(tabs)/_layout.tsx",
+    "app/(tabs)/index.tsx",
+    "app/(tabs)/log.tsx",
+    "constants/tags.ts",
     "constants/colors.ts",
-    "constants/tags.ts"
+    "types/index.ts",
+    "assets/images/favicon.png",
+    "assets/images/splash-icon.png",
+    "assets/images/icon.png",
+    "assets/images/adaptive-icon.png"
   ],
   "config_files": {
     "app.json": {
@@ -86,6 +86,15 @@
         ],
         "experiments": {
           "typedRoutes": true
+        },
+        "owner": "robert_castagna",
+        "extra": {
+          "router": {
+            "origin": "https://rork.com/"
+          },
+          "eas": {
+            "projectId": "4571e3eb-c13d-48ac-90b7-9edcec71c5cb"
+          }
         }
       }
     },

@@ -42,3 +42,7 @@ yarn-error.*
 
 .env
 rork-eslint.config.js
+
+# iOS Signing Credentials
+credentials.json
+certs/*

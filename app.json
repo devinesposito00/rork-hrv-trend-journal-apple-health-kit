@@ -15,7 +15,10 @@
     },
     "ios": {
       "supportsTablet": false,
-      "bundleIdentifier": "app.rork.hrv-trend-journal-bhle0pb"
+      "bundleIdentifier": "app.tminus.hrv-trend-journal-bhle0pb",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
     },
     "android": {
       "adaptiveIcon": {

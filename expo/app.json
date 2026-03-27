@@ -15,10 +15,7 @@
     },
     "ios": {
       "supportsTablet": false,
-      "bundleIdentifier": "app.tminus.hrv-trend-journal-bhle0pb",
-      "infoPlist": {
-        "ITSAppUsesNonExemptEncryption": false
-      }
+      "bundleIdentifier": "app.rork.hrv-trend-journal-bhle0pb"
     },
     "android": {
       "adaptiveIcon": {
@@ -48,15 +45,6 @@
     ],
     "experiments": {
       "typedRoutes": true
-    },
-    "owner": "robert_castagna",
-    "extra": {
-      "router": {
-        "origin": "https://rork.com/"
-      },
-      "eas": {
-        "projectId": "4571e3eb-c13d-48ac-90b7-9edcec71c5cb"
-      }
     }
   }
 }
